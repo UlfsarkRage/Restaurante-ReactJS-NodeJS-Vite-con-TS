@@ -17,3 +17,6 @@
         "node_modules"
     ]
 }
+
+
+//npm i --save-dev @types/cors para cuando no reconozca CORS en el index.ts|
