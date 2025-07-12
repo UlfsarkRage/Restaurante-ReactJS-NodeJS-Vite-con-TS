@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "esnext", /* Usamos 'esnext' para asegurar compatibilidad con módulos ES. */
+        "module": "nodenext", /* ¡CAMBIAMOS ESTO! Le dice a TypeScript que genere módulos ES. */
+        "moduleResolution": "nodenext", // para que interprete correctamente importaciones como CORS
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
